@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Roboto+Condensed:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: grey;
+    font-family: 'Cormorant SC', serif;
+    height: 150vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 40px;
+}
+   
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    background-color: blanchedalmond;
+    width: 120vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    height: 90vh;
+    width: 95vw;
+    margin:144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Cormorant SC', serif;
+}
+
+.hello{ 
+    font-size: 60px;
+    justify-content: center;
+    
+}
+.name{
+     font-size: 50px;
+     font-weight: bold;
+}
+.about{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.moreabout{
+    font-size: 40px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin-top: 23px;
+    font-weight: 800;
+
+}
+
+.buttons{
+    margin-top: 34px; 
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(58, 95, 141);
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btns-sm{
+    font-size: 17px;
+    padding: 10px 19px;
+    margin: 12px 0;    
+}
+
+.buttons button:hover{
+    background-color:rgba(0, 0, 0, 0.116);
+    color:aliceblue;
+
+}
+
+.devpic img {
+    height: 30vh;
+    padding-top: 40px;
+}
+
+.Contactform{
+    padding: 0 34px;
+    padding-top: 50px;
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;
+}
+
+.Contactform h1{
+    font-family: 'Cormorant SC', serif;
+    padding: 5px 0;
+}
+
+.Contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contactform form div input{
+    width: 26vw;
+    text-align: center;
+    border: radius 10px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 10PX;
+    color: midnightblue;
+    margin: 0 4px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 25px;
+    margin: 8px 0;
+}
+
+.blogItem {
+    margin: 50px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 50px;
+
+}
+
+h1{
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
+    margin: 23px;
+    font-size: 80px;
+
+}
+
+p{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.intro h2{
+    margin:  12px;
+}
+
+.intro p{
+    margin: 12px;
+}
+
+.skillcontainer{
+    align-items: center;
+    display: flex;
+    padding: 15px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    padding:  10px 20px;
+    font-family: 'Cormorant SC', serif;
+}
+
+.skill{
+    width: 20px;
+    height: 23px;
+    background-color: red;
+    padding: 5px;
+}
+
+.hundered{
+    width: 120px;
+    background-color: rgb(161, 80, 25);
+    padding-bottom: 5px;
+}
+
+.fifty{
+    width: 50px;
+    background-color: aquamarine;
+    padding-bottom: 5px;
+}
+
+.t5{
+    width: 90px;
+    background-color: blueviolet;
+    padding-bottom: 5px;
+}
+
+.sidebarGo{
+    transform: translate(-433px,0px);
+    position: absolute;
+}
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    left: 20px;
+    margin-top: 20px;
+}
+
+.cross{
+    margin-left: 164px;
+    margin-top: 20px;
+}
+
+@media  (max-width: 12450px){
+    *{
+        /*background*/
+    }
+}
+
+.main1 img {
+    height: 500px;
+    padding-top: 10px;
+    position: center;
+}
